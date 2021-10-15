@@ -63,7 +63,11 @@ func mapBlockIDToBlock(blockId uint8) uint32 {
 		return dirt
 	case 8:
 		return water
+	case 9:
+		return water
 	case 10:
+		return lava
+	case 11:
 		return lava
 	default:
 		return air

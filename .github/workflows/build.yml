@@ -16,6 +16,7 @@ jobs:
       uses: egor-tensin/setup-mingw@v2
       with:
         platform: x64
+        cc: 0
     - name: Install latest nightly
       uses: actions-rs/toolchain@v1
       with:

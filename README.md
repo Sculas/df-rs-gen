@@ -1,7 +1,7 @@
-# df-rs-gen &mdash; `Dragonfly Rust Generator`
+# df-rs-gen &mdash; [`Dragonfly Rust Generator`](https://github.com/df-mc/dragonfly/)
 
+### Using the powers of Rust, Go and Dragonfly to make a vanilla-like world generation.
 ![Showcase](https://elon.is-from.space/r/kusshugr69a.jpg "Showcase")
-Using the powers of Rust, Go and Dragonfly to try and make an okay-looking world generation.<br>
 
 ## How to use
 Clone the repo.

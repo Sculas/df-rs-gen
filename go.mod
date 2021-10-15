@@ -1,4 +1,4 @@
-module df-rs-gen
+module github.com/Lucaskyy/df-rs-gen
 
 go 1.17
 

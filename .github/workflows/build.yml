@@ -30,4 +30,4 @@ jobs:
       uses: actions/upload-artifact@v2.2.4
       with:
         name: NachoSpigot API JAR
-        path: ${{ github.workspace }}/df-rs-gen/lib/rustgen/target/
+        path: ${{ github.workspace }}/lib/rustgen/target/

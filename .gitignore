@@ -1,0 +1,7 @@
+.idea
+*.iml
+*.exe
+*.dll
+players
+world
+*.toml

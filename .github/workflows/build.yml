@@ -29,5 +29,5 @@ jobs:
     - name: Upload Artifact
       uses: actions/upload-artifact@v2.2.4
       with:
-        name: NachoSpigot API JAR
-        path: ${{ github.workspace }}/lib/rustgen/target/
+        name: rustgen-lib
+        path: ${{ github.workspace }}/lib/rustgen/target/x86_64-pc-windows-gnu/release/rustgen.dll

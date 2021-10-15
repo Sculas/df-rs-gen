@@ -16,12 +16,12 @@ import (
 type RustGen struct{}
 
 var (
-	air, _ = world.BlockRuntimeID(block.Air{})
+	air, _   = world.BlockRuntimeID(block.Air{})
 	stone, _ = world.BlockRuntimeID(block.Stone{})
 	grass, _ = world.BlockRuntimeID(block.Grass{})
-	dirt, _ = world.BlockRuntimeID(block.Dirt{})
+	dirt, _  = world.BlockRuntimeID(block.Dirt{})
 	water, _ = world.BlockRuntimeID(block.Water{Still: true, Falling: false, Depth: 8})
-	lava, _ = world.BlockRuntimeID(block.Lava{Still: true, Falling: false, Depth: 8})
+	lava, _  = world.BlockRuntimeID(block.Lava{Still: true, Falling: false, Depth: 8})
 )
 
 func NewRustGen() RustGen {
@@ -34,7 +34,7 @@ func (RustGen) GenerateChunk(pos world.ChunkPos, chunk *chunk.Chunk) {
 	n := 0
 	for y := int16(0); y < 256; y++ {
 		for z := uint8(0); z < 16; z++ {
-			for x := uint8(0); x < 16; func(){x++;n++}() {
+			for x := uint8(0); x < 16; func() { x++; n++ }() {
 				chunk.SetRuntimeID(x, y, z, 0, mapBlockIDToBlock(uint8(chunkData[n])))
 			}
 		}

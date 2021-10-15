@@ -4,4 +4,4 @@
 *.dll
 players
 world
-*.toml
+config.toml

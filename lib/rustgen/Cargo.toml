@@ -1,0 +1,13 @@
+[package]
+name = "rustgen"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+crate-type = [ "cdylib" ]
+
+[dependencies]
+voxel_worldgen = { path = "./deps/voxel_worldgen", version = "0.1" }
+nalgebra = "0.6"
+noise = "0.2.0"
+rand = "0.3"

@@ -1,4 +1,4 @@
-# df-rs-gen &mdash; [`Dragonfly Rust Generator`](https://github.com/df-mc/dragonfly/)
+# df-rs-gen &mdash; [`Dragonfly Rust Generator`](https://github.com/df-mc/dragonfly/) [![Windows Build](https://github.com/Lucaskyy/df-rs-gen/actions/workflows/build.yml/badge.svg)](https://github.com/Lucaskyy/df-rs-gen/actions/workflows/build.yml)
 
 ### Using the powers of Rust, Go and Dragonfly to make a vanilla-like world generation.
 ![Showcase](https://elon.is-from.space/r/kusshugr69a.jpg "Showcase")

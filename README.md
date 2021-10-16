@@ -13,7 +13,7 @@ Download the latest DLL required. (or build it yourself, see below)
 Build the application. (or use it as a library, see below)
 > `go build .`
 
-Run the application.
+Run the application. Make sure the application and DLL are in the same path, next to each other. Otherwise you will get an error!
 > `df-rs-gen.exe`
 
 ### How to build the DLL yourself
